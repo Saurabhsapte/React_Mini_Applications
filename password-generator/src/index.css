@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+button {
+	cursor: pointer;
+}
+button:hover {
+	border-color: #9595f3;
+}
+button:focus,
+button:focus-visible {
+	outline: 4px auto -webkit-focus-ring-color;
+}
